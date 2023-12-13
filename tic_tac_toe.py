@@ -159,6 +159,11 @@ def stop():
         time.sleep(0.5)
         game.clear()
 # -----------------------------------------------------
+def print_pos(x,y):
+     print(x,y)
+
+#win.onclick(print_pos)
+#----------------
 # position of a point
 x1=0           
 x2=101                    
@@ -232,10 +237,7 @@ def play(x,y):
          
 
 # ************************
-#def print_pos(x,y):
-#     print(x,y)
 
-#win.onclick(print_pos)
 border(100)
 p.write("X turn",align="center",font = ('Courier', 35, 'bold'))
 win.onclick(play,1,True)
